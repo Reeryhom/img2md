@@ -1,0 +1,4 @@
+__tests__/
+test-images/
+.gitignore
+*.log

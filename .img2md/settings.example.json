@@ -1,0 +1,26 @@
+{
+  "provider": "anthropic",
+  "anthropic": {
+    "base_url": "https://api.kimi.com/coding/",
+    "api_key": "your-api-key-here",
+    "model": "claude-3-5-sonnet-20241022",
+    "max_tokens": 8192
+  },
+  "minimax": {
+    "api_host": "https://api.minimaxi.com",
+    "api_key": "your-api-key-here"
+  },
+  "compression": {
+    "enabled": true,
+    "max_size_mb": 5,
+    "quality": 80
+  },
+  "retry": {
+    "max_retries": 3,
+    "base_delay_ms": 1000,
+    "timeout_ms": 30000
+  },
+  "output": {
+    "format": "markdown"
+  }
+}

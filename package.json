@@ -1,0 +1,26 @@
+{
+  "name": "img2md",
+  "version": "1.0.1",
+  "description": "Convert images to markdown using Anthropic's vision API",
+  "main": "dist/index.js",
+  "bin": {
+    "img2md": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "link": "npm link",
+    "test": "node --import tsx --test __tests__/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "axios": "^1.6.0",
+    "commander": "^12.0.0",
+    "glob": "^10.3.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}

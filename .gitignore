@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.img2md/settings.json
+*.log
